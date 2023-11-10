@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividad Query</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    
+</head>
+<body>
+    <div class="grid">
+        <nav class="barra">
+            <ul class="lista">
+                <li>
+                    <img class="icono-perrito" src="./assets/image/dog-side.svg" alt="perrito">
+                    Perritos a elegir
+                </li>
+                <li>Inicio</li>
+                <li>Animales</li>
+                <li>Sobre nosotros</li>
+                <li>Contacto</li>
+            </ul>
+        </nav>
+        <section class="filtro">
+            <div class="ordenar">
+                <p>Ordenar por:</p>
+                <input list="opciones" name="ordenarPor" placeholder="Raza o Sexo">
+                <datalist id="opciones">
+                    <option value="Raza">
+                    <option value="Sexo">
+                </datalist>
+            </div>        
+        </section>
+    
+        <main class="main">
+            <div>
+                <img src="./assets/image/pastor.jpg" alt="pastor aleman">
+                <p>Pastor Aleman</p>
+            </div>
+            <div>
+                <img src="./assets/image/collie.jpeg" alt="border collie">
+                <p>Border Collie</p>
+            </div>
+            <div>
+                <img src="./assets/image/bulldog.png" alt="bulldog ingles">
+                <p>Bulldog Ingles</p>
+            </div>
+            <div>
+                <img src="./assets/image/dalmata.png" alt="dalmata">
+                <p>Dalmata</p>
+            </div>
+            <div>
+                <img src="./assets/image/rottweiler.jpg" alt="rottweiler aleman">
+                <p>Rottweiler</p>
+            </div>
+            <div>
+                <img src="./assets/image/golden.jfif" alt="golden retriever">
+                <p>Golden Retriever</p>
+            </div>
+            <div>
+                <img src="./assets/image/akita.jpg" alt="akita">
+                <p>Akita</p>
+            </div>
+            <div>
+                <img src="./assets/image/doberman.png" alt="doberman">
+                <p>Doberman</p>
+            </div>
+
+            <nav>
+                <ul class="paginacion">
+                  <li><a class="page-link" href="#">Previous</a></li>
+                  <li><a class="page-link" href="#">1</a></li>
+                  <li><a class="page-link" href="#">2</a></li>
+                  <li><a class="page-link" href="#">3</a></li>
+                  <li><a class="page-link" href="#">Next</a></li>
+                </ul>
+              </nav>
+
+        </main>
+
+        <footer class="pie">
+            <img class="face-icono" src="./assets/image/facebook.svg" alt="facebook">
+            <img class="twi-icono" src="./assets/image/twitter.svg" alt="twitter">
+            <p>Todos los derechos reservados</p>
+        </footer>
+
+    </div>
+
+</body>
+</html>
